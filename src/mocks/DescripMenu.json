@@ -1,0 +1,35 @@
+
+  {
+    "menu":[
+      {
+        "MOD_ID": 8,
+        "NOME": "WMS",
+        "DESCRICAO": "MÓDULO DE WMS",
+        "ICONE": null,
+        "POSICAO": 4
+      },
+      {
+        "MOD_ID": 7,
+        "NOME": "CONTABIL",
+        "DESCRICAO": "Módulo de contabilidade",
+        "ICONE": null,
+        "POSICAO": 5
+      },
+      {
+        "MOD_ID": 1,
+        "NOME": "MDF-e",
+        "DESCRICAO": "MÓDULO EMISSOR DE MDF-e",
+        "ICONE": null,
+        "POSICAO": 5
+      },
+      {
+        "MOD_ID": 6,
+        "NOME": "ADM SISTEMA",
+        "DESCRICAO": "Módulo de configurações do sistema",
+        "ICONE": null,
+        "POSICAO": 5
+      }
+    ]
+    
+    
+  }

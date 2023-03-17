@@ -1,0 +1,86 @@
+[
+  {
+    "menu": [
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "file-invoice",
+        "ITEM_ID": 75,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 74,
+        "NOME": "Inventário WMS",
+        "POSICAO": 1,
+        "ROTA": "/wms/relatorios/inventario-wms"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "warehouse",
+        "ITEM_ID": 67,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 66,
+        "NOME": "Cadastro de Áreas",
+        "POSICAO": 1,
+        "ROTA": "/wms/areas"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "folder-plus",
+        "ITEM_ID": 66,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": null,
+        "NOME": "Cadastros",
+        "POSICAO": 1,
+        "ROTA": null
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "check",
+        "ITEM_ID": 128,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 124,
+        "NOME": "Devolução de Mercadoria",
+        "POSICAO": 1,
+        "ROTA": "/wms/devolucao-produtos"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "box",
+        "ITEM_ID": 69,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 78,
+        "NOME": "Configuração Produto - Endereço",
+        "POSICAO": 1,
+        "ROTA": "/wms/produtos"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "file-invoice",
+        "ITEM_ID": 77,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 74,
+        "NOME": "Rastreamento de Produtos",
+        "POSICAO": 2,
+        "ROTA": "/wms/relatorios/rastreamento-produto"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "map-marker-alt",
+        "ITEM_ID": 68,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 66,
+        "NOME": "Cadastro de Endereços",
+        "POSICAO": 2,
+        "ROTA": "/wms/enderecos"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "check",
+        "ITEM_ID": 129,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 124,
+        "NOME": "Entrada de Mercadoria",
+        "POSICAO": 2,
+        "ROTA": "/wms/entrada-produtos"
+      }
+    ]
+  }
+]

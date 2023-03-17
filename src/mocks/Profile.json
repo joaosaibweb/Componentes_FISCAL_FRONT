@@ -1,0 +1,59 @@
+{
+  "emp_id": "105",
+  "emp_razao_social": "105 - SAIBWEB IMPLANTACAO",
+  "emp_saibweb": 1362,
+  "loading": false,
+  "optionModule": [],
+  "selectedModule": [
+    {
+      "menu": [
+        {
+          "EXPANSIVEL": "N",
+          "ICONE": "file-invoice",
+          "ITEM_ID": 75,
+          "MOD_ID": 8,
+          "NIVEL_SUPERIOR": 74,
+          "NOME": "Inventário WMS",
+          "POSICAO": 1,
+          "ROTA": "/wms/relatorios/inventario-wms"
+        },
+        {
+          "EXPANSIVEL": "N",
+          "ICONE": "warehouse",
+          "ITEM_ID": 67,
+          "MOD_ID": 8,
+          "NIVEL_SUPERIOR": 66,
+          "NOME": "Cadastro de Áreas",
+          "POSICAO": 1,
+          "ROTA": "/wms/areas"
+        }
+      ],
+      "module": "WMS",
+      "route": "/wms"
+    }
+  ],
+  "optionsEmp": [
+    {
+      "EMP_CNPJ": "01616929000102",
+      "EMP_ID": "1",
+      "EMP_NOME": "1 - GRUPO SAIB S/A",
+      "EMP_SAIBWEB": 1,
+      "EMP_UF": "GO",
+      "PWDCERT": "U0lHSUxP"
+    },
+    {
+      "EMP_CNPJ": "79817499000184",
+      "EMP_ID": "105",
+      "EMP_NOME": "105 - SAIBWEB IMPLANTACAO",
+      "EMP_SAIBWEB": 1362,
+      "EMP_UF": "GO",
+      "PWDCERT": "c2FpYjIwMjE="
+    }
+  ],
+  "signed": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVU1JfSUQiOjIwMTMsIlVTUl9JRF9TQUlCV0VCIjoxNjUyNywiVVNSX0xPR0lOIjoiSlVOSU9SLlNBSUJXRUIiLCJVU1JfVElQTyI6MSwiRU1QX0lEIjoiMTA1IiwiRU1QX1NBSUJXRUIiOjEzNjIsIkVNUF9VRiI6IkdPIiwiRU1QX1JBWkFPX1NPQ0lBTCI6IjEwNSAtIFNBSUJXRUIgSU1QTEFOVEFDQU8iLCJFTVBfQ05QSiI6Ijc5ODE3NDk5MDAwMTg0IiwiUFdEQ0VSVCI6InNhaWIyMDIxIiwicm9sZXMiOltdLCJpYXQiOjE2NzgzMDQ0NjYsImV4cCI6MTY3ODQ3NzI2Nn0.5d1vJOFFWLTW0qYrbb3ZtxOQjPEI5naayrihRCpzy8c",
+  "usr_id": 2013,
+  "usr_login": "JUNIOR.SAIBWEB",
+  "usr_saibweb_id": 16527,
+  "usr_tipo": 1
+}

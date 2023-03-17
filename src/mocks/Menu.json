@@ -1,0 +1,25 @@
+
+  {
+    "menu": [
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "file-invoice",
+        "ITEM_ID": 75,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 74,
+        "NOME": "Inventário WMS",
+        "POSICAO": 1,
+        "ROTA": "/wms/relatorios/inventario-wms"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "warehouse",
+        "ITEM_ID": 67,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 66,
+        "NOME": "Cadastro de Áreas",
+        "POSICAO": 1,
+        "ROTA": "/wms/areas"
+      }
+    ]
+  }
