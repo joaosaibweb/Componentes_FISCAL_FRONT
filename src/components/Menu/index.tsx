@@ -4,7 +4,7 @@ import React, { useEffect, useState, Fragment } from "react";
 import clsx from 'clsx';
 import { makeStyles } from "@material-ui/core/styles";
 
-import MenuData from "../../mocks/Menu.json"
+import ModulesSelect from "../../mocks/ModulesSelect.json"
 
 import CssBaseline from "@material-ui/core/CssBaseline";
 import IconButton from "@material-ui/core/IconButton";
@@ -53,11 +53,14 @@ interface MenuItem {
 }
 
 type ItemApi = {
-  ITEM_ID: number;
-  NIVEL_SUPERIOR: string | number;
-  NOME: string;
-  ROTA: string;
+  EXPANSIVEL: string;
   ICONE: string;
+  ITEM_ID: number;
+  MOD_ID: number;
+  NIVEL_SUPERIOR: any;
+  NOME: string;
+  POSICAO: number;
+  ROTA: string | null;
 };
 
 interface Subitem {
@@ -126,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
 export function Menu() {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
-  const  selectedModule  = MenuData //((state: RootState) => state.auth);
+  const  selectedModule  = ModulesSelect //((state: RootState) => state.auth);
   const [listaItensMenu, setItensMenu] = useState<MenuItem[]>([]);
 
   // const api = ApiService.getInstance(ApiTypes.ADM);
@@ -207,7 +210,7 @@ export function Menu() {
         titulo: item.NOME,
         identificador: `${padronizaIdentificador(item.NOME)}`,
         ativo: false,
-        rota: item.ROTA,
+        rota: item.ROTA!,
         icone: item.ICONE,
         itens: [],
       };
@@ -240,6 +243,7 @@ export function Menu() {
     if (selectedModule.menu[0] && selectedModule.menu[0].ITEM_ID) {
       const modulosParaTela = mapeiaModulosDaApiParaTela(
         selectedModule.menu
+
       );
       setItensMenu(modulosParaTela);
     } else {

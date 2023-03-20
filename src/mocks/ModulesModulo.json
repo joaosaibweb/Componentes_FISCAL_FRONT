@@ -1,0 +1,1392 @@
+ [
+    {
+      "MOD_ID": 8,
+      "NOME": "WMS",
+      "DESCRICAO": "MÓDULO DE WMS",
+      "ICONE": null,
+      "POSICAO": 4,
+      "ITENS": [
+        {
+          "ITEM_ID": 75,
+          "MOD_ID": 8,
+          "NOME": "Inventário WMS",
+          "ICONE": "file-invoice",
+          "ROTA": "/wms/relatorios/inventario-wms",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 67,
+          "MOD_ID": 8,
+          "NOME": "Cadastro de Áreas",
+          "ICONE": "warehouse",
+          "ROTA": "/wms/areas",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 66,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 66,
+          "MOD_ID": 8,
+          "NOME": "Cadastros",
+          "ICONE": "folder-plus",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 128,
+          "MOD_ID": 8,
+          "NOME": "Devolução de Mercadoria",
+          "ICONE": "check",
+          "ROTA": "/wms/devolucao-produtos",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 69,
+          "MOD_ID": 8,
+          "NOME": "Configuração Produto - Endereço",
+          "ICONE": "box",
+          "ROTA": "/wms/produtos",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 78,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 77,
+          "MOD_ID": 8,
+          "NOME": "Rastreamento de Produtos",
+          "ICONE": "file-invoice",
+          "ROTA": "/wms/relatorios/rastreamento-produto",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 68,
+          "MOD_ID": 8,
+          "NOME": "Cadastro de Endereços",
+          "ICONE": "map-marker-alt",
+          "ROTA": "/wms/enderecos",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 66,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 129,
+          "MOD_ID": 8,
+          "NOME": "Entrada de Mercadoria",
+          "ICONE": "check",
+          "ROTA": "/wms/entrada-produtos",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 79,
+          "MOD_ID": 8,
+          "NOME": "Gerenciamento de Endereços",
+          "ICONE": "map-marker-alt",
+          "ROTA": "/wms/gerenciamento-endereco",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 78,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 126,
+          "MOD_ID": 8,
+          "NOME": "Movimentação de Estoque",
+          "ICONE": "check",
+          "ROTA": "/wms/movimentacao-estoque",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 95,
+          "MOD_ID": 8,
+          "NOME": "Parâmetros do Módulo",
+          "ICONE": "tools",
+          "ROTA": "/wms/parametros",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 78,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 82,
+          "MOD_ID": 8,
+          "NOME": "Conferencia de Pedidos",
+          "ICONE": "barcode",
+          "ROTA": "/wms/conferencia-pedidos",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 81,
+          "MOD_ID": 8,
+          "NOME": "Kardex Multi Estoque Wms",
+          "ICONE": "file-invoice",
+          "ROTA": "/wms/relatorios/kardex-wms",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 152,
+          "MOD_ID": 8,
+          "NOME": "Requisição de Materia Prima OP",
+          "ICONE": "file-invoice",
+          "ROTA": "/wms/relatorios/materia-prima",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 74,
+          "MOD_ID": 8,
+          "NOME": "Relatórios",
+          "ICONE": "file-invoice",
+          "ROTA": null,
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 125,
+          "MOD_ID": 8,
+          "NOME": "Movimentação de Produtos",
+          "ICONE": "check",
+          "ROTA": "/wms/movimentacao-produto",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 78,
+          "MOD_ID": 8,
+          "NOME": "Configurações",
+          "ICONE": "cogs",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 124,
+          "MOD_ID": 8,
+          "NOME": "MOVIMENTAÇÕES",
+          "ICONE": "exchange-alt",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 146,
+          "MOD_ID": 8,
+          "NOME": "Separação de Matéria-Prima",
+          "ICONE": "check",
+          "ROTA": "/wms/separacao-materia-prima",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 127,
+          "MOD_ID": 8,
+          "NOME": "Separação de Mercadoria",
+          "ICONE": "check",
+          "ROTA": "/wms/saida-produtos",
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 188,
+          "MOD_ID": 8,
+          "NOME": "Mapa de Produção",
+          "ICONE": "file-invoice",
+          "ROTA": "wms/relatorios/mapa-producao",
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 156,
+          "MOD_ID": 8,
+          "NOME": "Chão de fabrica",
+          "ICONE": "check",
+          "ROTA": "/wms/ordem-producao-chao-fabrica",
+          "POSICAO": 7,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 174,
+          "MOD_ID": 8,
+          "NOME": "DESCARGA E QUALIDADE",
+          "ICONE": "print",
+          "ROTA": "wms/relatorios/descarga",
+          "POSICAO": 7,
+          "NIVEL_SUPERIOR": 74,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 185,
+          "MOD_ID": 8,
+          "NOME": "Reabertura de Produção",
+          "ICONE": "check",
+          "ROTA": "/wms/reabrir-ordem-producao",
+          "POSICAO": 8,
+          "NIVEL_SUPERIOR": 124,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 7,
+      "NOME": "CONTABIL",
+      "DESCRICAO": "Módulo de contabilidade",
+      "ICONE": null,
+      "POSICAO": 5,
+      "ITENS": [
+        {
+          "ITEM_ID": 113,
+          "MOD_ID": 7,
+          "NOME": "Cadastro Movimentações",
+          "ICONE": "check",
+          "ROTA": "/contabil11",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 112,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 140,
+          "MOD_ID": 7,
+          "NOME": "Regra Faturamento",
+          "ICONE": "check",
+          "ROTA": "/contabil14",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 139,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 141,
+          "MOD_ID": 7,
+          "NOME": "Regra Almoxarifado",
+          "ICONE": "check",
+          "ROTA": "/contabil17",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 139,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 142,
+          "MOD_ID": 7,
+          "NOME": "Gerenciar Regras",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil20",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 139,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 134,
+          "MOD_ID": 7,
+          "NOME": "Acumulador Contábil",
+          "ICONE": "check",
+          "ROTA": "/contabil20",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 136,
+          "MOD_ID": 7,
+          "NOME": "Balancete Contábil",
+          "ICONE": "check",
+          "ROTA": "/contabil21",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 135,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 47,
+          "MOD_ID": 7,
+          "NOME": "Plano de Contas",
+          "ICONE": "balance-scale-left",
+          "ROTA": "/contabil8",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 33,
+          "MOD_ID": 7,
+          "NOME": "Cadastros",
+          "ICONE": "folder-plus",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 57,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 61,
+          "MOD_ID": 7,
+          "NOME": "Plano de Contas Modelo",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil2",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 51,
+          "MOD_ID": 7,
+          "NOME": "Histórico Padrão",
+          "ICONE": "balance-scale-left",
+          "ROTA": "/contabil9",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 137,
+          "MOD_ID": 7,
+          "NOME": "Razão Contábil",
+          "ICONE": "check",
+          "ROTA": "/contabil22",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 135,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 34,
+          "MOD_ID": 7,
+          "NOME": "Plano de Contas Referencial",
+          "ICONE": "balance-scale-left",
+          "ROTA": "/contabil1",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 57,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 60,
+          "MOD_ID": 7,
+          "NOME": "Parâmetros",
+          "ICONE": "sliders-h",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 62,
+          "MOD_ID": 7,
+          "NOME": "Histórico Padrão Modelo",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil3",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 114,
+          "MOD_ID": 7,
+          "NOME": "Relatório Movimentações",
+          "ICONE": "check",
+          "ROTA": "/contabil12",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 112,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 145,
+          "MOD_ID": 7,
+          "NOME": "Apropriar Faturamento",
+          "ICONE": "check",
+          "ROTA": "/contabil25",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 63,
+          "MOD_ID": 7,
+          "NOME": "Centros de Custo Modelo",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil4",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 149,
+          "MOD_ID": 7,
+          "NOME": "Balanço Patrimonial",
+          "ICONE": "check",
+          "ROTA": "/contabil31",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 135,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 147,
+          "MOD_ID": 7,
+          "NOME": "Apropriação Almoxarifado",
+          "ICONE": "check",
+          "ROTA": "/contabil26",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 52,
+          "MOD_ID": 7,
+          "NOME": "Centros de Custo",
+          "ICONE": "donate",
+          "ROTA": "/contabil10",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 111,
+          "MOD_ID": 7,
+          "NOME": "Cadastro de Eventos",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil5",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 57,
+          "MOD_ID": 7,
+          "NOME": "Contas Contábeis",
+          "ICONE": "balance-scale-left",
+          "ROTA": null,
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 148,
+          "MOD_ID": 7,
+          "NOME": "Apropriação Folha",
+          "ICONE": "check",
+          "ROTA": "/contabil30",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 133,
+          "MOD_ID": 7,
+          "NOME": "APROPRIAÇÃO CONTABIL",
+          "ICONE": "clipboard-check",
+          "ROTA": null,
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 180,
+          "MOD_ID": 7,
+          "NOME": "REGRA DESPESAS",
+          "ICONE": "check",
+          "ROTA": "/contabil38",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 139,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 154,
+          "MOD_ID": 7,
+          "NOME": "Impressão DRE",
+          "ICONE": "check",
+          "ROTA": "/contabil35",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 135,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 135,
+          "MOD_ID": 7,
+          "NOME": "RELATÓRIOS",
+          "ICONE": "file-pdf",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 162,
+          "MOD_ID": 7,
+          "NOME": "Apropriação de bens",
+          "ICONE": "check",
+          "ROTA": "/contabil37",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 115,
+          "MOD_ID": 7,
+          "NOME": "Regras Contábeis (FAT)",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil13",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 182,
+          "MOD_ID": 7,
+          "NOME": "Parâmetros Despesas/Contratos",
+          "ICONE": "check",
+          "ROTA": "/contabil39",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 139,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 112,
+          "MOD_ID": 7,
+          "NOME": "Movimentações",
+          "ICONE": "exchange-alt",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 139,
+          "MOD_ID": 7,
+          "NOME": "REGRAS",
+          "ICONE": "list",
+          "ROTA": null,
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 179,
+          "MOD_ID": 7,
+          "NOME": "APROPRIAÇÃO DESPESAS",
+          "ICONE": "check",
+          "ROTA": "/contabil40",
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 120,
+          "MOD_ID": 7,
+          "NOME": "Regras Contábeis (ALMOX)",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil16",
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 187,
+          "MOD_ID": 7,
+          "NOME": "APROPRIAÇÃO CAIXA BANCO",
+          "ICONE": "check",
+          "ROTA": "/contabil41",
+          "POSICAO": 8,
+          "NIVEL_SUPERIOR": 133,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 150,
+          "MOD_ID": 7,
+          "NOME": "Estrutura DRE",
+          "ICONE": "check",
+          "ROTA": "/contabil34",
+          "POSICAO": 8,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 178,
+          "MOD_ID": 7,
+          "NOME": "REGRAS CONTÁBEIS (DESP)",
+          "ICONE": "check",
+          "ROTA": "/restricted/contabil37",
+          "POSICAO": 8,
+          "NIVEL_SUPERIOR": 60,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 155,
+          "MOD_ID": 7,
+          "NOME": "Calendário Contábil",
+          "ICONE": "check",
+          "ROTA": "/contabil36",
+          "POSICAO": 9,
+          "NIVEL_SUPERIOR": 33,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 1,
+      "NOME": "MDF-e",
+      "DESCRICAO": "MÓDULO EMISSOR DE MDF-e",
+      "ICONE": null,
+      "POSICAO": 5,
+      "ITENS": [
+        {
+          "ITEM_ID": 83,
+          "MOD_ID": 1,
+          "NOME": "Cadastros",
+          "ICONE": "folder-plus",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 84,
+          "MOD_ID": 1,
+          "NOME": "Cadastro de Percurso",
+          "ICONE": "map-marked-alt",
+          "ROTA": "/mdfe7",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 83,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 3,
+          "MOD_ID": 1,
+          "NOME": "Cadastrar Mdf-e",
+          "ICONE": "folder-plus",
+          "ROTA": "/mdfe1",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 27,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 29,
+          "MOD_ID": 1,
+          "NOME": "Consultar MDf-e não encerrado",
+          "ICONE": "clipboard-list",
+          "ROTA": "/mdfe6",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 28,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 31,
+          "MOD_ID": 1,
+          "NOME": "Configurações do Sistema",
+          "ICONE": "pencil-ruler",
+          "ROTA": "/mdfe5",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 30,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 28,
+          "MOD_ID": 1,
+          "NOME": "Consultas",
+          "ICONE": "clipboard-list",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 1,
+          "MOD_ID": 1,
+          "NOME": "Transmitir MDF-e",
+          "ICONE": "exchange-alt",
+          "ROTA": "/mdfe2",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 27,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 27,
+          "MOD_ID": 1,
+          "NOME": "Ações",
+          "ICONE": "layer-group",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 30,
+          "MOD_ID": 1,
+          "NOME": "Configurações",
+          "ICONE": "cogs",
+          "ROTA": null,
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 32,
+          "MOD_ID": 1,
+          "NOME": "Registro de Eventos",
+          "ICONE": "calendar-check",
+          "ROTA": "/mdfe3",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 27,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 6,
+      "NOME": "ADM SISTEMA",
+      "DESCRICAO": "Módulo de configurações do sistema",
+      "ICONE": null,
+      "POSICAO": 5,
+      "ITENS": [
+        {
+          "ITEM_ID": 176,
+          "MOD_ID": 6,
+          "NOME": "Cadastro de Scripts",
+          "ICONE": "check",
+          "ROTA": "/admin/exportador/scripts",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 175,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 158,
+          "MOD_ID": 6,
+          "NOME": "Clientes, Produtos e Fornecedores",
+          "ICONE": "check",
+          "ROTA": "/admin/importador",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 157,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 59,
+          "MOD_ID": 6,
+          "NOME": "Gerenciar Acessos da Empresa",
+          "ICONE": "user-shield",
+          "ROTA": "/restricted/admin/menu-empresa",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 177,
+          "MOD_ID": 6,
+          "NOME": "Execução de Scripts",
+          "ICONE": "check",
+          "ROTA": "/admin/exportador/scripts/execucao",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 175,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 65,
+          "MOD_ID": 6,
+          "NOME": "Gerenciar Acessos do Usuário",
+          "ICONE": "user-lock",
+          "ROTA": "/admin/menu-usuarios",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 58,
+          "MOD_ID": 6,
+          "NOME": "Parametrizações Globais",
+          "ICONE": "tools",
+          "ROTA": "/admin/config-empresa",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 171,
+          "MOD_ID": 6,
+          "NOME": "Cadastro de Empresas",
+          "ICONE": "check",
+          "ROTA": "/admin/cad-empresa",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 157,
+          "MOD_ID": 6,
+          "NOME": "Importadores",
+          "ICONE": "file-import",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 175,
+          "MOD_ID": 6,
+          "NOME": "Exportadores",
+          "ICONE": "file-export",
+          "ROTA": null,
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 184,
+          "MOD_ID": 6,
+          "NOME": "Cadastro de Tokens (API's)",
+          "ICONE": "cloud",
+          "ROTA": "/admin/cad-token-api",
+          "POSICAO": 6,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 10,
+      "NOME": "CUSTOS",
+      "DESCRICAO": null,
+      "ICONE": null,
+      "POSICAO": 6,
+      "ITENS": [
+        {
+          "ITEM_ID": 97,
+          "MOD_ID": 10,
+          "NOME": "PARAMETROS",
+          "ICONE": "sliders-h",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 98,
+          "MOD_ID": 10,
+          "NOME": "GRUPO DE CUSTOS",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/grupodecustos",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 97,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 101,
+          "MOD_ID": 10,
+          "NOME": "MAPA DE CUSTOS",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/relatorio",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 102,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 99,
+          "MOD_ID": 10,
+          "NOME": "LINK MP",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/linkMP",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 97,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 103,
+          "MOD_ID": 10,
+          "NOME": "CUSTOS POR PRODUTO",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/relatorio/por/produto",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 102,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 102,
+          "MOD_ID": 10,
+          "NOME": "GERAÇÃO DE CUSTOS",
+          "ICONE": "print",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 100,
+          "MOD_ID": 10,
+          "NOME": "GASTOS",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/gastos",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 97,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 166,
+          "MOD_ID": 10,
+          "NOME": "LINK CONTÁBIL",
+          "ICONE": "angle-right",
+          "ROTA": "/custos/linkContabil",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 97,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 11,
+      "NOME": "PATRIMONIAL",
+      "DESCRICAO": "MÓDULO PATRIMONIAL",
+      "ICONE": null,
+      "POSICAO": 7,
+      "ITENS": [
+        {
+          "ITEM_ID": 119,
+          "MOD_ID": 11,
+          "NOME": "Posição CIAP",
+          "ICONE": "check",
+          "ROTA": "/patrimonial/patr4",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 118,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 110,
+          "MOD_ID": 11,
+          "NOME": "BENS",
+          "ICONE": "angle-right",
+          "ROTA": "/patrimonial/patr3",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 109,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 106,
+          "MOD_ID": 11,
+          "NOME": "PARÂMETROS",
+          "ICONE": "sliders-h",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 107,
+          "MOD_ID": 11,
+          "NOME": "GRUPOS PATRIMONIAL",
+          "ICONE": "angle-right",
+          "ROTA": "/patrimonial/patr1",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 106,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 131,
+          "MOD_ID": 11,
+          "NOME": "Baixa de Bens",
+          "ICONE": "check",
+          "ROTA": "/patrimonial/patr5",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 130,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 109,
+          "MOD_ID": 11,
+          "NOME": "CADASTROS",
+          "ICONE": "folder",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 108,
+          "MOD_ID": 11,
+          "NOME": "CONTAS PATRIMONIAL",
+          "ICONE": "angle-right",
+          "ROTA": "/patrimonial/patr2",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 106,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 138,
+          "MOD_ID": 11,
+          "NOME": "Depreciaçao de Bens",
+          "ICONE": "check",
+          "ROTA": "/patrimonial/patr20",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 130,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 144,
+          "MOD_ID": 11,
+          "NOME": "ANALITICO DE BENS",
+          "ICONE": "check",
+          "ROTA": "/patrimonial/patr21",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 118,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 118,
+          "MOD_ID": 11,
+          "NOME": "RELATÓRIOS",
+          "ICONE": "print",
+          "ROTA": null,
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 165,
+          "MOD_ID": 11,
+          "NOME": "Ciap Modelo C/D",
+          "ICONE": "check",
+          "ROTA": "/patrimonial/patr22",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 118,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 130,
+          "MOD_ID": 11,
+          "NOME": "MOVIMENTAÇÕES",
+          "ICONE": "exchange-alt",
+          "ROTA": null,
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 9,
+      "NOME": "SFA",
+      "DESCRICAO": "MÓDULO SFA",
+      "ICONE": "fa fas-icon",
+      "POSICAO": 7,
+      "ITENS": [
+        {
+          "ITEM_ID": 90,
+          "MOD_ID": 9,
+          "NOME": "Cadastros",
+          "ICONE": "folder-plus",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 89,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 86,
+          "MOD_ID": 9,
+          "NOME": "Configuração Usuário - Rotas",
+          "ICONE": "user-cog",
+          "ROTA": "/sfa/usuario-rota",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 85,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 94,
+          "MOD_ID": 9,
+          "NOME": "Pré-Cadastro de Clientes",
+          "ICONE": "user-plus",
+          "ROTA": "/sfa/precadastro-cliente",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 90,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 105,
+          "MOD_ID": 9,
+          "NOME": "Pedidos por Cliente",
+          "ICONE": "sliders-h",
+          "ROTA": "/sfa/relatorio/por-cliente",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 104,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 85,
+          "MOD_ID": 9,
+          "NOME": "PARÂMETROS",
+          "ICONE": "sliders-h",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 93,
+          "MOD_ID": 9,
+          "NOME": "Scripts",
+          "ICONE": "file-alt",
+          "ROTA": "/sfa/scripts",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 90,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 91,
+          "MOD_ID": 9,
+          "NOME": "Agenda do Dia",
+          "ICONE": "calendar-alt",
+          "ROTA": "/sfa/agenda-atendimento",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 89,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 143,
+          "MOD_ID": 9,
+          "NOME": "Relatório de Pedidos",
+          "ICONE": "check",
+          "ROTA": "/sfa/relatorio/rel10",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 104,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 87,
+          "MOD_ID": 9,
+          "NOME": "Pedido de Faturamento",
+          "ICONE": "cubes",
+          "ROTA": "/sfa/pedido",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 88,
+          "MOD_ID": 9,
+          "NOME": "Configurações de Venda",
+          "ICONE": "funnel-dollar",
+          "ROTA": "/sfa/config-venda",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 85,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 92,
+          "MOD_ID": 9,
+          "NOME": "Gerenciamento",
+          "ICONE": "headset",
+          "ROTA": "/sfa/gerencia-atendimento",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 89,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 151,
+          "MOD_ID": 9,
+          "NOME": "Relatório de Tabela de Preço",
+          "ICONE": "print",
+          "ROTA": "/sfa/relatorio/tabela-precos",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": 104,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 96,
+          "MOD_ID": 9,
+          "NOME": "APROVAÇÃO FINANCEIRA",
+          "ICONE": "check",
+          "ROTA": "/sfa/aprova_fina",
+          "POSICAO": 3,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 89,
+          "MOD_ID": 9,
+          "NOME": "Televendas / Cobrança",
+          "ICONE": "headset",
+          "ROTA": null,
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 153,
+          "MOD_ID": 9,
+          "NOME": "Parametros Aliquota Venda",
+          "ICONE": "file-invoice",
+          "ROTA": "/sfa/relatorio/relCadParamAliqVda",
+          "POSICAO": 4,
+          "NIVEL_SUPERIOR": 104,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 104,
+          "MOD_ID": 9,
+          "NOME": "RELATÓRIOS",
+          "ICONE": "print",
+          "ROTA": null,
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 159,
+          "MOD_ID": 9,
+          "NOME": "CONTA GRÁFICA",
+          "ICONE": "sliders-h",
+          "ROTA": "/sfa/relatorios/produtos-conta-grafica",
+          "POSICAO": 5,
+          "NIVEL_SUPERIOR": 104,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 12,
+      "NOME": "FISCAL",
+      "DESCRICAO": "MÓDULO FISCAL",
+      "ICONE": null,
+      "POSICAO": 8,
+      "ITENS": [
+        {
+          "ITEM_ID": 116,
+          "MOD_ID": 12,
+          "NOME": "Dashboard",
+          "ICONE": "chart-line",
+          "ROTA": "/fiscal1",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 13,
+      "NOME": "VENDAS",
+      "DESCRICAO": "MÓDULO DE VENDAS",
+      "ICONE": null,
+      "POSICAO": 9,
+      "ITENS": [
+        {
+          "ITEM_ID": 160,
+          "MOD_ID": 13,
+          "NOME": "Prestação de contas",
+          "ICONE": "layer-group",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 161,
+          "MOD_ID": 13,
+          "NOME": "Acerto Conta Corrente",
+          "ICONE": "calculator",
+          "ROTA": "/vendas/prestacao_contas/acerto_conta_corrente",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 160,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    },
+    {
+      "MOD_ID": 14,
+      "NOME": "SUPRIMENTOS / MATERIAIS",
+      "DESCRICAO": "MÓDULO DE SUPRIMENTOS E MATERIAIS",
+      "ICONE": null,
+      "POSICAO": 10,
+      "ITENS": [
+        {
+          "ITEM_ID": 167,
+          "MOD_ID": 14,
+          "NOME": "Serviços e Despesas",
+          "ICONE": "sliders-h",
+          "ROTA": null,
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 168,
+          "MOD_ID": 14,
+          "NOME": "Impostos",
+          "ICONE": "angle-right",
+          "ROTA": "/suprimentos/supr1",
+          "POSICAO": 1,
+          "NIVEL_SUPERIOR": 170,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 170,
+          "MOD_ID": 14,
+          "NOME": "Parâmetros",
+          "ICONE": "layer-group",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 167,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 172,
+          "MOD_ID": 14,
+          "NOME": "Entrada Despesas ou Contratos",
+          "ICONE": "cubes",
+          "ROTA": "/suprimentos/supr3",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 167,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 181,
+          "MOD_ID": 14,
+          "NOME": "Despesas ou Contratos",
+          "ICONE": "file-pdf",
+          "ROTA": "/suprimentos/relatorios/despesas",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 173,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 173,
+          "MOD_ID": 14,
+          "NOME": "RELATÓRIOS",
+          "ICONE": "print",
+          "ROTA": null,
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": null,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 169,
+          "MOD_ID": 14,
+          "NOME": "Contratos ou Despesas",
+          "ICONE": "angle-right",
+          "ROTA": "/suprimentos/supr2",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 170,
+          "EXPANSIVEL": "N"
+        },
+        {
+          "ITEM_ID": 183,
+          "MOD_ID": 14,
+          "NOME": "Uso Parâmetros de Despesas",
+          "ICONE": "file-pdf",
+          "ROTA": "/suprimentos/relatorios/uso_parametros_despesas",
+          "POSICAO": 2,
+          "NIVEL_SUPERIOR": 173,
+          "EXPANSIVEL": "N"
+        }
+      ]
+    }
+  ]

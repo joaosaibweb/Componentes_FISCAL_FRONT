@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 import Profile from "../../mocks/Profile.json"
 
-import ModulesSelect from "../../mocks/ModulesSelect.json"
+import ModulesModulo from "../../mocks/ModulesModulo.json"
 
 // import { selectModule } from "store/modules/auth/actions";
 // import history from 'services/history';
@@ -202,9 +202,10 @@ export function BotaoModulos() {
 
    const carregaModuloPadrao = () => {
 
-    const retornoModulos = ModulesSelect
-      // .filter((mod: any) => mod.NOME === "MDF-e")
+    const retornoModulos = ModulesModulo
+   
       const optModulos: any = retornoModulos
+      .filter((mod: any) => mod.NOME === "MDF-e")
         .map((mod: any) => ({
           value: mod.MOD_ID,
           label: mod.NOME,

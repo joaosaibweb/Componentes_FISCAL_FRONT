@@ -1,4 +1,4 @@
-[
+
   {
     "menu": [
       {
@@ -80,7 +80,18 @@
         "NOME": "Entrada de Mercadoria",
         "POSICAO": 2,
         "ROTA": "/wms/entrada-produtos"
+      },
+      {
+        "EXPANSIVEL": "N",
+        "ICONE": "print",
+        "ITEM_ID": 174,
+        "MOD_ID": 8,
+        "NIVEL_SUPERIOR": 74,
+        "NOME": "DESCARGA E QUALIDADE",
+        "POSICAO": 7,
+        "ROTA": "wms/relatorios/descarga"
       }
-    ]
+    ],
+    "module": "WMS",
+    "route": "/wms/conferencia-pedidos"
   }
-]
